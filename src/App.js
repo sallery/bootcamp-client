@@ -35,7 +35,7 @@ class App extends React.Component{
                 <div class="card-body">
                     <h5 className="card-title">{employee.name}</h5>
                     <p class="card-text">{employee.location}</p>
-                    <p className="card-text2">{employee.phone}</p>
+                    {/* <p className="card-text2">{employee.phone}</p> */}
                     <a href="#" class="btn btn-primary">See more</a>
                 </div>
               </div>
